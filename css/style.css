@@ -19,3 +19,33 @@ th {
 td {
     border: 2px solid black;
 }
+.head :nth-child(even) {
+    background-color: aqua;
+}
+.head :nth-child(odd) {
+    background-color: yellowgreen;
+}
+.body1 :nth-child(2n) {
+    background-color: red;
+}
+.body2 :nth-child(n+3) {
+    background-color: turquoise;
+}
+.body3 :nth-child(-n+3) {
+    background-color: chocolate;
+}
+.body6 :nth-child(3){
+    background-color: darkgreen;
+}
+.body4 > td:hover {
+    color: beige;
+    background-color: blue;
+}
+.body5 > td:active {
+    color: chartreuse;
+    background-color: red;
+}
+button:hover, button:focus {
+    color: aliceblue;
+    background-color: black;
+}
